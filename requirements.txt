@@ -1,0 +1,27 @@
+# Jupyter Notebook environment
+jupyter
+
+# Data manipulation and processing
+pandas
+numpy
+
+# Visualization
+matplotlib
+
+# OpenAI API
+openai  # Official OpenAI Python client
+
+# For retrieval-augmented generation and similarity search (if using embeddings)
+faiss-cpu  # or faiss-gpu if using GPU support
+scikit-learn  # for vector operations and cosine similarity
+transformers  # if using Hugging Face transformers
+
+# Additional utilities
+tqdm  # for progress bars
+requests  # for API requests, if applicable
+
+# Optional: Environment management
+python-dotenv  # for managing environment variables, e.g., API keys
+
+# Custom GitHub repository
+-e git+https://github.com/simonpierreboucher/llm_openai_notebook.git#egg=llm_openai_notebook
